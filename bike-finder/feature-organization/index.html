@@ -1,0 +1,154 @@
+<!-- views to think about:
+    - home page
+    - list page
+    - detail page
+    - what's on every page?
+explain what's on the page, and then add in your UI solutions by page. have details about placement on the page and short descriptions of its function
+  -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Feature Organization</title>
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i,900,900i" rel="stylesheet">
+
+  </head>
+  <body>
+    <h1>Feature Organization Structure</h1>
+
+    <section id="every-page">
+      <h2>On Every Page:</h2>
+      <ul>
+        <li class="li-header">Cart Button</li>
+        <li class="li-header">Wishlist Button</li>
+          <ul>
+            <li>next to the cart. Represents a page that allows comparison of selected bikes</li>
+          </ul>
+        <li class="li-header">Search Bar</li>
+          <ul>
+            <li>includes auto suggestions while typing</li>
+          </ul>
+        <li class="li-header">Home Page Icon</li>
+        <li class="li-header">FAQ link (in the footer)</li>
+          <ul>
+            <li>info on return policies, shipping, etc</li>
+          </ul>
+      </ul>
+    </section>
+
+    <section id="home-page">
+      <h2>Home Page:</h2>
+      <ul>
+        <li class="li-header">Large Photos of Bike Types</li>
+            <ul>
+              <li>grid of bike-type names centered on home page</li>
+              <li>underneath each title will be a short, quick description to help people quickly understand the differences</li>
+            </ul>
+        <li class="li-header">Dropdown: "Don't Know Your Type?"</li>
+            <ul>
+              <li><em>above grid of bike types</em></li>
+              <li>user can click on it, and look/choose suggested qualities that narrows down the bike types relevant to them ("multifunctional", "for biking on roads", etc)</li>
+            </ul>
+      </ul>
+    </section>
+
+    <section id="list-page">
+      <h2>List Page:</h2>
+      <ul>
+        <li class="li-header">Photo Grid of Bikes</li>
+          <ul>
+            <li>small thumbnail of bike</li>
+            <li>name of bike underneath</li>
+            <li>includes extra mark if bike is on sale</li>
+            <li>wishlist button when hovering on photo</li>
+          </ul>
+        <li class="li-header">Filtering</li>
+          <ul>
+            <li><em>left side</em></li>
+            <li>Bike Type (Cruiser, BMX, etc)</li>
+            <li>Gender Specificity</li>
+            <li>Age Specificity</li>
+            <li>Price</li>
+            <li>Color</li>
+            <li>Gears / Speeds</li>
+            <li>Material</li>
+            <li>Bike Weight</li>
+            <li>Frame Size</li>
+            <li>Wheel Size</li>
+            <li>Attachments (i.e. basket, fenders)</li>
+            <li>Waterproofness</li>
+          </ul>
+        <li class="li-header">Sorting</li>
+          <ul>
+            <li><em>upper right, above the grid</em></li>
+            <li>Price: low-high</li>
+            <li>Price: high-low</li>
+            <li>Top Customer Review</li>
+          </ul>
+      </ul>
+    </section>
+
+    <section id="detail-page">
+      <h2>Detail Page:</h2>
+      <ul>
+        <li class="li-header">Photo of Bike</li>
+          <ul>
+            <li>zoom-in feature</li>
+          </ul>
+        <li class="li-header">Bike Description</li>
+          <ul>
+            <li>paragraph containing extended description</li>
+            <ul>
+              <li>dimensions of bike</li>
+              <li>brand</li>
+              <li>warranty coverage</li>
+              <li>possible attachments</li>
+              <li>other tech features</li>
+            </ul>
+          </ul>
+        <li class="li-header">bike price</li>
+            <ul>
+              <li>w/ estimated shipping</li>
+            </ul>
+        <li class="li-header">Button: Add to Cart</li>
+        <li class="li-header">Button: Add to Wishlist</li>
+        <li class="li-header">Customer reviews</li>
+        <li class="li-header">Safety reviews</li>
+        <li class="li-header">Alternate Color Options</li>
+          <ul>
+            <li>buttons that show the different colors (circular icons?)</li>
+          </ul>
+        <li class="li-header">Other Customers Viewed...</li>
+          <ul>
+            <li>image wheel</li>
+          </ul>
+      </ul>
+    </section>
+
+    <section id="notes">
+      <ul>
+        <li>Notes on User Stories:</li>
+        <ul>
+          <li>Most aesthetic decisions (color, attached features, comfort options) are made during the refinement phase, with some in the deciding phase</li>
+
+          <li>Bike type is often decided during the starting and refinement phases</li>
+
+          <li>Personas tend to want to see customer reviews in the deciding phase, with some choosing to filter by review in refinement</li>
+
+          <li>Functional factors (material, gears, frame size, etc) are mostly in refinement</li>
+
+          <li>Personas want the website to offer comparison options in the deciding stage</li>
+
+          <li>Personas have UI expectations during every stage</li>
+
+          <li>Price is a general filter in refinement (flat price, sale options); personas want more detailed pricing information in the deciding stage (i.e. how to pay, price comparisons, shipping cost)</li>
+        </ul>
+      </ul>
+
+    </section>
+
+  </body>
+</html>

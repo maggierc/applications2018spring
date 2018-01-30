@@ -1,0 +1,29 @@
+body {
+  padding: 10px 50px;
+  font-family: "Roboto", Helvetica, sans-serif;
+  line-height: 1.4em;
+  color: #444;
+}
+
+a:visited {
+  color: grey;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 1.4em;
+
+}
+
+h2 {
+  font-size: 22px;
+  margin: 0;
+}
+
+.li-header {
+  font-weight: 500;
+}
+
+#notes {
+  color: #aaa;
+}
