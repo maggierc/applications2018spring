@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Helvetica, sans-serif;
+  line-height: 1.4em;
+  color: #444;
+}
+
+a:visited {
+  color: grey;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 1.4em;
+  padding: 10px 50px;
+}
+
+h2 {
+  font-size: 22px;
+  margin: 0;
+  padding: 10px 50px;
+
+}
+
+.image {
+  width: 90%;
+  margin: auto;
+  padding: 50px 0;
+  /*box-shadow: 3px 3px 15px grey;*/
+}
+
+img {
+  width: 100%;
+    box-shadow: 3px 3px 15px grey;
+}
