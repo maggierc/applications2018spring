@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  padding: 50px;
+  font-family: "Roboto", Helvetica, sans-serif;
+  line-height: 1.4em;
+  color: #444;
+}
+
+a:visited {
+  color: grey;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 1.4em;
+  margin: 0;
+}
+
+h2 {
+  font-size: 22px;
+  margin: 0;
+
+}
+
+.image {
+  float: right;
+  width: 65%;
+  margin: auto;
+  margin-left: 25px;
+}
+
+img {
+  width: 100%;
+    box-shadow: 3px 3px 20px #999;
+}

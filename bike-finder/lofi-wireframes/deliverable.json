@@ -1,0 +1,28 @@
+{
+  "entrypoints" : [
+    {
+      "name" : "Home Page",
+      "file" : "homepage.html"
+    },
+    {
+      "name" : "List Page",
+      "file" : "listpage.html"
+    },
+    {
+      "name" : "Detail Page",
+      "file" : "detailpage.html"
+    },
+    {
+      "name" : "Improved Home Page",
+      "file" : "newhomepage.html"
+    },
+    {
+      "name" : "Improved List Page",
+      "file" : "newlistpage.html"
+    },
+    {
+      "name" : "Improved Detail Page",
+      "file" : "newdetailpage.html"
+    }
+  ]
+}
