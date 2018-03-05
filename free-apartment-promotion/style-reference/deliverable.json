@@ -1,0 +1,20 @@
+{
+  "entrypoints" : [
+    {
+      "name" : "New Drafts",
+      "file" : "newdrafts.html"
+    },
+    {
+      "name" : "Style Guide 1",
+      "file" : "index.html"
+    },
+    {
+      "name" : "Style Guide 2",
+      "file" : "guide2.html"
+    },
+    {
+      "name" : "Style Guide 3",
+      "file" : "guide3.html"
+    }
+  ]
+}

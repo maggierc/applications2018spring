@@ -1,0 +1,47 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #444;
+}
+
+h1 {
+  font-size: 1.5em;
+  color: #999;
+}
+
+h2 {
+  font-size: 1.2em;
+  font-weight: normal;
+}
+
+h3 {
+  font-size: 1em;
+}
+
+div.main {
+  width: 1200px;
+  margin: auto;
+  padding: 15px 0;
+}
+
+.mockup {
+  width: 33%;
+  float: left;
+}
+
+.styleguide {
+  width: 66%;
+  float: right;
+}
+
+.draft {
+  width: 25%;
+  display: inline-block;
+  padding: 0.5%;
+}
+
+img {
+  width: 100%;
+}
