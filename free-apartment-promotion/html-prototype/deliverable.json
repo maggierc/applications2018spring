@@ -1,0 +1,12 @@
+{
+  "entrypoints" : [
+    {
+      "name" : "First Draft",
+      "file" : "index.html"
+    },
+    {
+      "name" : "FINAL",
+      "file" : "final/index.html"
+    }
+  ]
+}
