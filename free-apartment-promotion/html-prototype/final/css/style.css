@@ -1,0 +1,739 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "IBM Plex Sans Condensed", Arial, sans-serif;
+}
+
+/* font stuff */
+h1 {
+  margin: 0;
+  padding: 0;
+  letter-spacing: 0.3em;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  font-size: 0.85em;
+  text-align: center;
+}
+
+h3 {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  font-size: 3.5em;
+  text-align: center;
+  color: #fff;
+}
+
+h4 {
+    margin: 0;
+    padding: 0;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    font-size: 0.85em;
+  }
+
+
+/* general settings */
+
+section {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+input {
+  display: block;
+  box-sizing: border-box;
+  width: 220px;
+  padding: 12px;
+  margin: auto;
+  margin-bottom: 25px;
+  border-style: none;
+  border-bottom: 3px solid #000;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+  border-bottom: 3px solid #FF424C;
+}
+
+fieldset {
+  border: none;
+}
+
+.green-grad {
+  background: linear-gradient(#5F2CBD, #00C698);
+}
+
+div.green-grad {
+  height: 900px;
+  width: 100%;
+  position: absolute;
+  top: 1250px;
+}
+
+section.black {
+  background: #000;
+}
+
+section#winner-pgrad-section {
+  color: #fff;
+  font-size: 0.5em;
+  text-transform: uppercase;
+  text-align: right;
+  padding-top: 300px;
+  padding-right: 50px;
+  height: 500px;
+  box-sizing: border-box;
+}
+
+section#winner-black-section {
+  color: #fff;
+  font-size: 0.5em;
+  text-transform: uppercase;
+  text-align: right;
+  padding-top: 100px;
+  padding-right: 50px;
+  height: 200px;
+  box-sizing: border-box;
+  top: 1000px;
+  z-index: 100000;
+}
+
+/* BUTTON STUFF */
+a {
+  display: block;
+  width: 300px;
+  margin: auto;
+  position: relative;
+  top: 0;
+  text-align: center;
+  z-index: 1000;
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+}
+
+a#index-signup-1 {
+  display: block;
+  width: 200px;
+  margin: auto;
+  position: relative;
+  top: 830px;
+  left: 60px;
+  z-index: 1000;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+a#index-signup-2 {
+  display: block;
+  width: 200px;
+  margin: auto;
+  position: relative;
+  top: 665px;
+  right: 8px;
+  z-index: 1000;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+a#index-apartment {
+  display: block;
+  width: 120px;
+  margin: auto;
+  position: relative;
+  top: 590px;
+  right: 8px;
+  z-index: 1000;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+a#signup-signup {
+  border-radius: 100px;
+  color: #fff;
+  background-color: #FF424C;
+  height: 50px;
+  width: 200px;
+  box-sizing: border-box;
+  padding-top: 15px;
+  font-size: 15px;
+  top: 350px;
+  right: 30px;
+}
+
+a#thanks-countdown {
+  border-radius: 100px;
+  color: #fff;
+  background-color: #FF424C;
+  height: 40px;
+  width: 220px;
+  box-sizing: border-box;
+  padding-top: 10px;
+  font-size: 15px;
+  top: 365px;
+  right: 20px;
+}
+
+a#countdown1-apartment {
+  top: 545px;
+  right: 70px;
+  color: #fff;
+  width: 150px;
+}
+
+a#countdown1-home {
+  top: 590px;
+  left: 80px;
+  color: #fff;
+  width: 200px;
+}
+
+a#winner-home {
+  top: 985px;
+  right: 37px;
+  color: #fff;
+  width: 200px;
+}
+
+/*** TEXT STYLING: INDEX.HTML *******************/
+section#section-landing {
+  background-image: url("../lines/landing-1.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 1200px;
+
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+h1#free-rent {
+  width: 150px;
+  color: #fff;
+  position: relative;
+  top: 70px;
+  left: 10px;
+  margin: auto;
+}
+
+h2#one-lucky {
+  width: 150px;
+  color: #000;
+  position: relative;
+  top: 177px;
+  right: 15px;
+  margin: auto;
+}
+
+h2#scroll-to {
+  width: 122px;
+  color: #000;
+  position: relative;
+  top: 251px;
+  right: 47px;
+  margin: auto;
+}
+
+p#opening-pp {
+  width: 200px;
+  color: #000;
+  position: relative;
+  top: 456px;
+  right: 0px;
+  margin: auto;
+}
+
+h2#further-details {
+  width: 122px;
+  color: #000;
+  position: relative;
+  top: 738px;
+  right: 63px;
+  margin: auto;
+}
+
+h2#keep-scrolling{
+  width: 122px;
+  color: #000;
+  position: relative;
+  top: 780px;
+  left: 70px;
+  margin: auto;
+}
+
+h2#when{
+  width: 122px;
+  color: #000;
+  position: relative;
+  top: 175px;
+  right: 55px;
+  margin: auto;
+  font-size: 28px;
+}
+
+h3#april-1{
+  width: 220px;
+  position: relative;
+  top: 265px;
+  left: 40px;
+  margin: auto;
+
+}
+
+h3#june-1{
+  width: 220px;
+  position: relative;
+  top: 400px;
+  left: 40px;
+  margin: auto;
+
+}
+
+section#section-landing2 {
+  background-image: url("../lines/landing-2.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 320px;
+  height: 900px;
+  margin: auto;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+section#section-landing3 {
+  background-image: url("../lines/landing-3.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 1100px;
+  margin: auto;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+h2#whats-needed{
+  width: 122px;
+  color: #000;
+  position: relative;
+  top: 90px;
+  right: 50px;
+  margin: auto;
+}
+
+p#just-email {
+  width: 150px;
+  color: #000;
+  position: relative;
+  top: 176px;
+  right: 40px;
+  margin: auto;
+}
+
+h2#where-would-i{
+  width: 200px;
+  color: #000;
+  position: relative;
+  top: 327px;
+  left: 47px;
+  margin: auto;
+}
+
+p#landing-lastpp{
+  width: 180px;
+  color: #000;
+  position: relative;
+  top: 417px;
+  left: 42px;
+  margin: auto;
+}
+
+
+/*** TEXT STLING: SIGN UP HTML *******************/
+section#section-signup {
+  background-image: url("../lines/wireframesignup-line.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 320px;
+  height: 1100px;
+  margin: auto;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+h1#signup-h1 {
+  width: 100px;
+  color: #000;
+  position: relative;
+  top: 70px;
+  right: 55px;
+  margin: auto;
+}
+
+fieldset {
+  position: relative;
+  top: 85px;
+  left: 10px;
+  margin: auto;
+}
+
+h4#signup-caption {
+  width: 225px;
+  color: #000;
+  position: relative;
+  top: 150px;
+  left: 12px;
+  margin: auto;
+}
+
+
+/*** TEXT STLING: THANKS HTML *******************/
+body#thanks {
+  background-color: #00C698;
+}
+
+section#section-thanks {
+  background-image: url("../lines/thank.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 320px;
+  height: 700px;
+  margin: auto;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+h1#thankyou-thank {
+  width: 200px;
+  color: #fff;
+  position: relative;
+  top: 70px;
+  right: 35px;
+  margin: auto;
+}
+
+h1#thankyou-you {
+  width: 200px;
+  color: #fff;
+  position: relative;
+  top: 140px;
+  left: 85px;
+  margin: auto;
+}
+
+p#thanks-pp {
+  width: 225px;
+  color: #000;
+  position: relative;
+  top: 350px;
+  right: 5px;
+  margin: auto;
+}
+
+/*** TEXT STLING: COUNTDOWN1 HTML *******************/
+body#body-countdown1 {
+  background: linear-gradient(#8D49D3, #FF424C);
+}
+
+section#section-countdown1 {
+  background-image: url("../lines/countdown-1.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 320px;
+  height: 1150px;
+  margin: auto;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+h1#countdown-count {
+  width: 200px;
+  color: #000;
+  position: relative;
+  top: 70px;
+  right: 35px;
+  margin: auto;
+}
+
+h1#countdown-down {
+  width: 200px;
+  color: #000;
+  position: relative;
+  top: 70px;
+  right: 35px;
+  margin: auto;
+}
+
+h3#day-count {
+  width: 350px;
+  color: #000;
+  font-size: 32px;
+  position: relative;
+  top: 170px;
+  right: 20px;
+  margin: auto;
+}
+
+h3#minute-count {
+  width: 350px;
+  color: #000;
+  font-size: 32px;
+
+  position: relative;
+  top: 270px;
+  right: 20px;
+  margin: auto;
+}
+
+h3#seconds-count {
+  width: 350px;
+  color: #000;
+  font-size: 32px;
+
+  position: relative;
+  top: 375px;
+  right: 20px;
+  margin: auto;
+}
+
+body#body-countdown1 p {
+  width: 250px;
+  color: #000;
+  position: relative;
+  font-size: 19px;
+  top: 480px;
+  left: 0;
+  margin: auto;
+}
+
+/*** TEXT STLING: COUNTDOWN2 HTML *******************/
+body#body-countdown2 {
+  background: linear-gradient(#FF424C, #8D49D3);
+}
+
+body#body-countdown2 p {
+  width: 250px;
+  color: #000;
+  position: relative;
+  font-size: 19px;
+  top: 480px;
+  left: 0;
+  margin: auto;
+}
+
+/*** TEXT STLING: COUNTDOWN2 HTML *******************/
+body#body-winner {
+  background: black;
+}
+
+section#section-winner {
+  background-image: url("../lines/winner.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 320px;
+  height: 1400px;
+  margin: auto;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+}
+
+div#winner-pinkgrad {
+  background: linear-gradient(#e900b0, #ff424c);
+  position: absolute;
+  width: 100%;
+  height: 207px;
+  top: 25px;
+  z-index: -99;
+}
+
+div#winner-pink {
+  background-color: #FF424C;
+  position: absolute;
+  width: 100%;
+  height: 144px;
+  top: 966px;
+  z-index: -99;
+}
+
+div#winner-white {
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  height: 450px;
+  top: 1034px;
+  z-index: -100;
+}
+
+h1#winner-h1 {
+  width: 250px;
+  color: #fff;
+  position: relative;
+  font-size: 40px;
+  top: 50px;
+  left: 0;
+  margin: auto;
+}
+
+h1#winner-name {
+  width: 250px;
+  color: #fff;
+  position: relative;
+  text-align: center;
+  letter-spacing: 0.1em;
+  font-size: 30px;
+  top: 840px;
+  left: 0;
+  margin: auto;
+}
+
+body#body-winner p {
+  width: 250px;
+  color: #000;
+  position: relative;
+  top: 930px;
+  left: 15px;
+  margin: auto;
+}
+
+
+
+/* IMG STUFF */
+img {
+  /* width: 95%; */
+  width: 320px;
+  margin: auto;
+  display: block;
+  padding: 50px 2%;
+  /* position: relative; */
+}
+
+
+
+
+
+
+/* @media only screen and (min-width: 600px) {
+  img {
+    width: 600px;
+    margin: auto;
+    display: block;
+  }
+
+  a#index-signup-1 {
+    display: block;
+    width: 200px;
+    margin: auto;
+    position: relative;
+    top: 1452px;
+    left: 87px;
+    z-index: 1000;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+  }
+
+  a#index-signup-2 {
+    display: block;
+    width: 300px;
+    margin: auto;
+    position: relative;
+    top: 2000px;
+    right: 10px;
+    z-index: 1000;
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+  }
+
+  a#index-apartment {
+    display: block;
+    width: 300px;
+    margin: auto;
+    position: relative;
+    top: 1861px;
+    right: 10px;
+    z-index: 1000;
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+  }
+
+  a#signup-signup {
+    border-radius: 100px;
+    color: #fff;
+    background-color: #FF424C;
+    height: 70px;
+    width: 300px;
+    box-sizing: border-box;
+    padding-top: 19px;
+    font-size: 22px;
+    top: 1400px;
+    right: 40px;
+  }
+
+  a#thanks-countdown {
+    border-radius: 100px;
+    color: #fff;
+    background-color: #FF424C;
+    height: 50px;
+    width: 220px;
+    box-sizing: border-box;
+    padding-top: 15px;
+    font-size: 15px;
+    top: 1350px;
+    right: 30px;
+  }
+
+  a#countdown1-apartment {
+    top: 1900px;
+    right: 130px;
+    color: #fff;
+    font-size: 22px;
+  }
+
+  a#countdown1-home {
+    top: 1995px;
+    left: 150px;
+    color: #fff;
+    width: 300px;
+    font-size: 22px;
+  }
+
+  a#winner-home {
+    top: 1870px;
+    right: 60px;
+    color: #fff;
+    width: 300px;
+    font-size: 28px;
+  }
+
+
+  section#section-landing {
+    background-image: url("../lines/landing-1.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 2100px;
+    margin: auto;
+  }
+} */
