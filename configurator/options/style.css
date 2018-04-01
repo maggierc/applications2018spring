@@ -1,0 +1,20 @@
+body {
+  padding: 25px 50px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #333;
+  line-height: 1.5em;
+}
+
+h1 {
+  font-size: 1.1em;
+  color: #3fa9f5;
+}
+
+img {
+  width: 900px;
+  margin: auto;
+}
+
+a:visited {
+  color: #aaa;
+}
