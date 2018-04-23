@@ -1,0 +1,52 @@
+body, html {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+div {
+  width: 1300px;
+  height: 100%;
+  margin: auto;
+}
+
+div#body-index {
+  background-image: url("imgs/page-07.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+div#body-roast {
+  background-image: url("imgs/page-08.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+div#body-grind {
+  background-image: url("imgs/page-09.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+div#body-size {
+  background-image: url("imgs/page-10.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+div#body-review {
+  background-image: url("imgs/page-11.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+a {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
